@@ -1,0 +1,10 @@
+Public class Rectangle2D.Float{
+
+float x = 29.5f;
+float y = 48.8f;
+float width = 413.2f;
+float height = 118.6f;
+}
+ 
+Rectangle2D.Float rect = new Rectangle2D.Float(x, y, width, height);
+g2d.draw(rect);
